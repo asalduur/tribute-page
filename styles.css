@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+      body {
+          background: linear-gradient(180deg, #d5cce0, #102)
+      }
+      #title {
+          text-align: center;
+          font-size: 45px;
+          font-family: 'Dancing Script';
+          color: #e89;
+          text-shadow: 1px 1px #f14;
+          margin-bottom: 8px;
+      }
+      #main {
+          background-color: #102;
+          box-shadow:0 0 10px #102;
+          border-radius: 100px 100px 0px 0px;
+          width: 75%;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      #image {
+          max-width: 35%;
+          height: auto;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          border-radius: 25px;
+      }
+      #img-caption {
+          padding-top: 0% !important;
+      }
+
+      p{
+          text-align: center;
+          font-size: 16px;
+          color: #fef;
+      }
+      em {
+          color:#f14;
+      }
+      a:link {
+          color:#f14;
+      }
+      a:visited{
+          color:#fef;
+      }
+      a:hover{
+          color: #f85;
+      }
+      .row {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0 4px;
+          
+      }
+      .column {
+          flex: 25%;
+          max-width: 25%;
+          padding: 0 4px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      .column img {
+          margin-top: 8px;
+          vertical-align: middle;
+          width: 85%;
+          box-shadow: 2px 2px 1px #fef;
+          
+      }
+      .column img:hover {
+          transform: scale(1.1)
+      }
+      @media screen and (max-width: 800px) {
+          .column {
+              flex: 50%;
+              max-width: 50%;
+          }
+      }
+
+      @media screen and (max-width: 600px) {
+          .column {
+              flex: 100%;
+              width: 100%;
+          }
+      }
